@@ -1,0 +1,6 @@
+To use these Starship Themes, rename them 'starship.toml' and move
+them to ~/.config an easier way is to copy them using 
+
+`cp nord-segments.toml ~/.config/starship.toml`
+
+

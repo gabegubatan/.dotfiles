@@ -1,0 +1,7 @@
+window-decoration = false
+background-opacity = 0.8
+# theme = seoulbones_dark
+theme = CyberpunkScarletProtocol
+font-size = 14
+background-blur = true
+title = Terminal.
