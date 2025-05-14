@@ -10,5 +10,6 @@ rofi
 neovim
 ghostty
 polybar
+neomutt
 
 any others that require configs i will share here.
