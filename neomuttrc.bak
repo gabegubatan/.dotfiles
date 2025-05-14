@@ -1,0 +1,30 @@
+# Example neomuttrc config.
+# Neomutt is a terminal-based Email Client 
+
+
+# User Identity. 
+set from = "email@website.com"
+set realname = "Your Name"
+
+# Incoming Mail.
+set imap_user = "email@website.com"
+set imap_pass = "password-here"
+set folder = "imaps://imap.hostinger.com:993"
+set spoolfile = "+Inbox"
+
+# Outgoing Mail.
+set smtp_url = "smtps://email@website.com@smtp.hostinger.com:465"
+set smtp_pass = "password-here"
+
+# Optional: Sent, Drafts, Trash folders
+set postponed = "+Drafts"
+set record = "+Sent"
+set trash = "+Trash"
+
+
+# Security 
+set ssl_starttls = yes
+set ssl_force_tls = yes
+
+# Mailboxes to display in sidebar (Optional)
+mailboxes =Inbox =Sent =Drafts =Junk =Trash
