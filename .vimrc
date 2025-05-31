@@ -16,3 +16,23 @@ set background=dark       " Use colors suitable for a dark background
 set hidden                " Allow switching buffers without saving
 set laststatus=2          " Always show the status line
 set showcmd               " Show (partial) command in the last line of the screen
+
+
+" Begin plugin section
+call plug#begin('~/.vim/plugged')
+
+Plug 'vim-airline/vim-airline'
+Plug 'tpope/vim-fugitive'
+Plug 'tpope/vim-commentary'
+Plug 'ctrlpvim/ctrlp.vim'
+Plug 'tpope/vim-surround'
+" Optional: Add more plugins as needed
+
+call plug#end()
+
+### to install vim-plug run:
+
+# curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+#    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+
+# open vim and :PlugInstall to install plug-ins. Delete all # Comments before using.
